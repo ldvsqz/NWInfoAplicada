@@ -1,0 +1,23 @@
+<div class="text-center">
+    <br>
+    <br>
+    <br>
+    <br>
+    <form class="form-signin">
+        <h1 class="h3 mb-3 font-weight-normal">Inicio de Sesi&oacute;n</h1>
+
+        
+        <label for="inputEmail" class="sr-only">Correo</label> 
+        <!--<input type="email" name="inputEmail" class="form-control" placeholder="Usuario" required="" autofocus="" [(ngModel)]="user.Usuario">
+        -->
+        <input type="text" name="inputEmail" class="form-control" placeholder="Usuario" required="" autofocus="" [(ngModel)]="user.Usuario">
+        <label for="inputPassword" class="sr-only">Contrase&ntilde;a</label>
+        <input type="password" name="inputPassword" class="form-control"
+            placeholder="Contraseña" required="" [(ngModel)]="user.pass">
+    
+        <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="login()">Iniciar</button>
+        <a href="#">Registrar</a>
+    </form>
+    
+   </div>
+   
